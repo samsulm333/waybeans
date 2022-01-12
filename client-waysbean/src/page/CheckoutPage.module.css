@@ -1,0 +1,119 @@
+.mainContent {
+  padding-top: 120px;
+  padding-bottom: 150px;
+  height: 200%;
+  background-color: #e5e5e5;
+}
+
+.checkoutForm {
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 30px;
+}
+.input {
+  background-color: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  border-radius: 5px;
+  color: #613d2b;
+}
+.historyTransaction {
+  display: flex;
+  justify-content: space-between;
+  background: #ffe1c9;
+  padding: 20px;
+  height: 155px;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgb(92, 92, 92);
+  margin-bottom: 20px;
+}
+
+.checkoutDetail {
+  display: flex;
+  height: 120px;
+}
+.checkoutInfo {
+  padding-left: 10px;
+}
+
+.infoName {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.infoName b {
+  color: #613d2b;
+}
+
+.infoDetail {
+  font-size: 11px;
+  padding-left: 10px;
+}
+.infoTotal {
+  color: red;
+}
+
+.logoStyle {
+  float: right;
+  width: 90px;
+  height: 25px;
+}
+
+.buttonProductWrapper {
+  margin-top: 65%;
+  width: 100%;
+}
+.buttonProduct {
+  font-size: 13px;
+}
+
+.cartEmpty {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.preview {
+  width: 150px;
+  height: 100px;
+}
+
+.transSuccess {
+  top: 30vh;
+  left: 30vw;
+}
+.transSuccessText {
+  padding: 40px 30px;
+  font-size: 18px;
+  color: #469f74;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.transModal {
+  top: 10vh;
+  left: 30vw;
+  height: 65%;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.transDetail {
+  width: 500px;
+  height: 200%;
+  border-radius: 10px;
+  padding-left: 0px;
+  padding-right: 0px !important;
+  background-color: #e5e5e5;
+}
+.transModal::-webkit-scrollbar {
+  width: 0px;
+}
+.transDetailWrapper {
+  margin: 30px;
+  height: 300%;
+}

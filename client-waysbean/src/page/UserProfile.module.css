@@ -1,0 +1,217 @@
+.mainContent {
+  height: 90%;
+  padding-top: 85px;
+  background-color: #e5e5e5;
+}
+
+.containerDiv {
+  overflow: hidden;
+}
+
+.imageWrapper {
+  flex: 30%;
+  padding-right: 0px;
+}
+.profileText {
+  flex: 60%;
+}
+.image {
+  width: 180px;
+  height: 222px;
+  object-fit: cover;
+}
+.profileText {
+  padding-left: 10px;
+}
+.mb-5px {
+  margin-bottom: 5px;
+}
+.fntBrown {
+  color: #974a4a;
+  font-weight: 600;
+}
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&display=swap");
+
+.transWrapper {
+  overflow-y: auto;
+  width: 570px;
+  height: 60vh;
+}
+
+.transWrapper::-webkit-scrollbar {
+  width: 0.5vw;
+}
+.transWrapper::-webkit-scrollbar-thumb {
+  background-color: #f8a668;
+  border-radius: 0.5vw;
+}
+.transWrapper::-webkit-scrollbar-track {
+  background-color: #b1b1b1;
+  width: 6px;
+  border-radius: 0.5vw;
+}
+
+.historyTransaction {
+  display: flex;
+  justify-content: space-between;
+  background: #ffe1c9;
+  padding: 20px;
+  height: 180px;
+  width: 550px;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgb(92, 92, 92);
+  margin-bottom: 20px;
+}
+
+.checkoutDetail {
+  display: flex;
+  height: 130px;
+}
+.checkoutInfo {
+  padding-left: 10px;
+}
+
+.infoName {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.imageTrans {
+  width: 100px;
+  height: 140px;
+}
+.infoName b {
+  color: #613d2b;
+}
+
+.infoDetail {
+  font-size: 11px;
+  padding-left: 10px;
+}
+.infoTotal {
+  color: red;
+}
+
+.logoStyle {
+  width: 90px;
+  height: 25px;
+  margin-right: 26px;
+}
+
+.buttonProductWrapper {
+  margin-top: 0px;
+}
+
+.buttonProduct {
+  background-color: unset;
+  width: 150px;
+  color: blue;
+  padding: 0px;
+  font-size: 13px;
+}
+.buttonEmpty {
+  height: 19.5px;
+}
+
+.historyMark {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.QrCode {
+  margin-top: 10px;
+  margin-right: 35px;
+}
+
+.doneMark {
+  color: #00ff47;
+  margin-top: 10px;
+  width: 150px;
+  height: 24px;
+  background-color: rgb(207, 255, 131);
+  border-radius: 5px;
+  text-align: center;
+}
+.doneText {
+  font-weight: 700;
+  font-size: 15px;
+  height: 10px;
+}
+
+.buttonDone {
+  margin-top: 10px;
+  margin-left: 65px;
+  width: 150px;
+  height: 30px;
+  padding: 0px;
+  font-size: 13px;
+  border-radius: 6px;
+}
+
+.transModal {
+  top: 10vh;
+  left: 30vw;
+  height: 65%;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.transDetail {
+  width: 500px;
+  height: 200%;
+  border-radius: 10px;
+  padding-left: 0px;
+  padding-right: 0px !important;
+  background-color: #e5e5e5;
+}
+.transModal::-webkit-scrollbar {
+  width: 0px;
+}
+.transDetailWrapper {
+  margin: 30px;
+  height: 300%;
+}
+.transInfoWrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #ffe1c9;
+  padding: 20px;
+  height: 180px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(92, 92, 92);
+  margin-bottom: 20px;
+}
+.modalTransSubtotal {
+  background: #ffe1c9;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(92, 92, 92);
+}
+.infoNameModal {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 25px;
+  color: #613d2b;
+}
+.infoDetailModal {
+  font-size: 14px;
+  font-weight: 500;
+  color: #613d2b;
+}
+
+.profileTitle {
+  font-weight: 700;
+  color: #613d2b;
+  font-size: 30px;
+}
+.transTitle {
+  font-weight: 700;
+  color: #613d2b;
+  font-size: 30px;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+.containerBanner {
+  padding-top: 20vh;
+  padding-bottom: 50px;
+  box-sizing: border-box !important;
+  height: 610px;
+  background-color: #e5e5e5;
+}
+
+.banner {
+  background-color: #dbb699;
+  height: 70vh;
+  max-width: 70vw;
+  padding-left: 5vw;
+  padding-top: 10vh;
+  position: relative;
+  margin-bottom: 30px;
+}
+.bannerText {
+  width: 473px;
+  height: 145px;
+  color: #433434;
+}
+.textbanner {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  width: 400px;
+}
+
+.img {
+  top: 25vh;
+  left: 55vw;
+  width: 430px;
+  height: 272px;
+  position: absolute;
+}
+
+.mainContent {
+  background-color: #e5e5e5;
+  height: 200%;
+  padding-bottom: 10vh;
+  justify-content: center;
+}
+
+.cardProduct {
+  width: 250px;
+}
+
+.cardName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4b1f09;
+}
+.cardText {
+  margin-top: 20px;
+  color: #4b1f09;
+}
+
+.cardWrapper {
+  width: 85vw;
+  padding-left: 6vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardBody {
+  background-color: #dbb699;
+  height: 100%;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: black;
+}
+.popImage {
+  width: 65px;
+  height: 65px;
+}
+.partnerImage {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .cardWrapper {
+    width: 100vw;
+    padding-left: 6vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cardWrapper {
+    width: 100vw;
+    /* padding-left: 6vw; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cardProduct {
+    width: 170px;
+  }
+  .partnerImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    justify-content: center;
+  }
+
+  .cardWrapper {
+    width: 100vw;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

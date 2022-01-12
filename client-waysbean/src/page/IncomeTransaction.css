@@ -1,0 +1,80 @@
+.mainContentTransaction {
+  padding-top: 90px;
+  padding-bottom: 20vh;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+.Empty {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.transTitle {
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+tr,
+th,
+td {
+  border: solid 1px #828282;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.address {
+  width: 30%;
+}
+.postCode {
+  width: 70px;
+}
+
+th {
+  background-color: #d6d6d6;
+}
+
+th.action,
+td.action {
+  text-align: center;
+  width: 180px;
+}
+
+button {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  font-weight: 600;
+}
+
+li bold {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.btnTransaction {
+  width: 80px;
+}
+
+.waitingApprove {
+  color: #ff9900;
+  font-weight: 600;
+}
+.success {
+  color: #78a85a;
+  font-weight: 600;
+}
+
+.cancel {
+  color: #e83939;
+  font-weight: 600;
+}
+
+.onTheWay {
+  color: #00d1ff;
+  font-weight: 900;
+}

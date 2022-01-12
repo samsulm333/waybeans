@@ -1,0 +1,20 @@
+GET http://localhost:5003/api/v1/transactions
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY0MDczOTgyNn0.1_LCRwurcOAeSqzmPOpU_jrPCt93uSegOsongxcR7Is
+
+###
+http://localhost:5003/api/v1/my-transactions
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0MkBtYWlsLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY0MDY5NzU4OX0.nU-yhSyj_bqYvtNMjAfqoH2HX9zyxhFdQV0W7gNh0Hk
+
+
+###
+PATCH http://localhost:5003/api/v1/transaction/67
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY0MDc0MDg5MH0.BgM_qBv6tImN37JnfKzQs74PAsVb_mUo_zKsbUN_oP0
+
+{
+ "status": "Cancel"
+}
+
+###
+GET http://localhost:5003/api/v1/search?q=kjlkjlkj
+Content-Type: application/json

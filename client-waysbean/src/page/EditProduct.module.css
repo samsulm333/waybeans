@@ -1,0 +1,140 @@
+.input {
+  border: 1px solid #433434;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #000000 !important;
+}
+.inputImage::-webkit-file-upload-button {
+  visibility: hidden;
+  padding: 0px !important;
+}
+
+.inputImage::before {
+  color: #613d2b;
+  border: 1px solid #433434;
+  background-color: rgba(196, 196, 196, 0.25);
+  width: 100%;
+  height: 100%;
+  padding: 5px 0px 5px 10px;
+  content: "Attach Image";
+  display: inline-block;
+  user-select: none;
+  white-space: nowrap;
+  cursor: pointer;
+  background-image: url(../assets/thumbnail.png);
+  background-size: 15px;
+  background-position: 95% 5px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.form-control:active {
+  border: 2px solid #ffc700 !important;
+  border-color: #ffc700 !important;
+  outline: none !important;
+}
+.attachImage {
+  padding: 0px;
+}
+.imgPreview {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  padding: 5px 20px;
+  background-color: rgba(255, 255, 255, 0.25);
+  position: absolute;
+}
+.preview {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  padding: 0px;
+  position: absolute;
+}
+.previewWrapper {
+  position: relative;
+  height: 490px;
+  width: 410px;
+  background-color: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  border-radius: 5px;
+}
+
+.mainContent {
+  padding-top: 90px;
+  padding-bottom: 150px;
+  height: 150%;
+  background-color: #e5e5e5;
+  overflow: hidden;
+}
+
+.checkoutForm {
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 30px;
+}
+.input {
+  background-color: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613d2b;
+  border-radius: 5px;
+  color: #613d2b;
+}
+.historyTransaction {
+  display: flex;
+  justify-content: space-between;
+  background: whitesmoke;
+  padding: 20px;
+  height: 155px;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgb(92, 92, 92);
+  margin-bottom: 20px;
+}
+
+.checkoutDetail {
+  display: flex;
+  height: 120px;
+}
+.checkoutInfo {
+  padding-left: 10px;
+}
+
+.infoName {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.infoName b {
+  color: #613d2b;
+}
+
+.infoDetail {
+  font-size: 11px;
+  padding-left: 10px;
+}
+.infoTotal {
+  color: red;
+}
+
+.logoStyle {
+  float: right;
+  width: 90px;
+  height: 25px;
+}
+
+.buttonProducts {
+  margin-top: 47%;
+}
+
+.addProductSuccess {
+  top: 25vh;
+  left: 30vw;
+  text-align: center;
+}
+.addProductText {
+  margin: 30px;
+  font-size: 22px;
+  color: #469f74;
+  line-height: 33px;
+}
